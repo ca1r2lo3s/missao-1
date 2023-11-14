@@ -1,0 +1,39 @@
+body{
+    background-color: lightcoral;
+    padding:0; /*remove o padding da div*/
+    margin: 0; /*remove a margin*/
+    }
+    nav ul{
+        background-color: #141111;
+        padding: 10px 0;
+    }
+    nav a {
+        text-transform: uppercase;
+        color: #e5e1e1;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        }
+        .container{
+            
+        }
+        .form-group{
+            display: flex;
+            margin: 20px;
+            font-size: 15px;
+        }
+    .btn-primary{
+        display: flex;
+        background-color: rgb(55, 59, 63);
+    }
+        #footer{
+            background-color: #141111;
+            position: absolute;
+            bottom: 0;
+            width: 100%; /* tamanho total no eixo x (largura)*/
+            height: 2.5rem; /* tamanho do seu footer */
+            color: #eae5e5;
+            text-align: center;
+            font-size: 15px;
+            line-height: 50px;
+        }

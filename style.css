@@ -1,0 +1,50 @@
+  
+body{
+  background-color: lightcoral;
+  padding:0; /*remove o padding da div*/
+  margin: 0; /*remove a margin*/
+}
+nav ul{
+  background-color: #141111;
+  padding: 20px 0;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #e5e1e1;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 255px;
+
+
+
+
+  text-align: center;
+  margin: 0; /*remove a margin do h1 pra não bugar haha*/
+  padding: 150px 0; 
+  font-size: 50px;
+  color: #000;
+}
+.sub-titulo {
+    text-align: center;
+    padding: 50px 0; 
+    color: #000;
+  }
+
+  #footer{
+    background-color: #141111;
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* tamanho total no eixo x (largura)*/
+    height: 3.5rem; /* tamanho do seu footer */
+    color: #eae5e5;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+}

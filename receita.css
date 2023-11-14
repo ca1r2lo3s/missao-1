@@ -1,0 +1,84 @@
+body{
+    background-color: lightcoral;
+    padding:0; /*remove o padding da div*/
+    margin: 0; /*remove a margin*/
+    }
+    nav ul{
+        background-color: #141111;
+        padding: 20px 0;
+    }
+    nav a { 
+        text-transform: uppercase;
+        color: #e5e1e1;
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        left: -0px;
+        }
+        .pudim{
+            display: flex;
+            border-radius: 15px;
+            margin: 5px;
+        }
+        
+        .camarão{
+            display: flex;
+            margin: 5px;
+        }
+        .morango{
+            display: flex;
+            border-radius: 15px;
+            margin: 5px;
+            
+        }
+        
+
+        .col-sm{
+            background-color: #fffefe;
+            margin: 55px; 
+            margin-top: -5px;
+            margin-left: -10px;
+            border-radius: 10px;
+        }
+        
+        
+        .ing1{
+            text-align: 10px;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            
+            
+        }
+
+.txt1{
+    font-weight: bold;
+    font-size: 1px;
+}
+
+        .ing2{
+            text-align: 10px;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            
+            
+        }
+        
+        .ing3{
+            text-align: 10px;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        #footer{
+            background-color: #141111;
+            position: absolute;
+            bottom: 0;
+            width: 100%; /* tamanho total no eixo x (largura)*/
+            height: 3.5rem; /* tamanho do seu footer */
+            color: #eae5e5;
+            text-align: center;
+            font-size: 15px;
+            line-height: 50px;
+        }
